@@ -38,12 +38,12 @@ public class dau_ngoac_don {
                 } else {
                     result = "False";
                 }
+                }
             }
-        }
-        if (listOpenBracket.size() != 0) {
-            result = "False";
-        }
-        return result;
+            if (listOpenBracket.size() != 0) {
+                result = "False";
+            }
+            return result;
 
+        }
     }
-}
