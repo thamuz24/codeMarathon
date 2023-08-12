@@ -3,8 +3,6 @@ import java.util.List;
 
 public class diem_va_vong_tron {
     public static int solve(List<List<Double>> point, List<Double> r) {
-        // Write your code here
-        // ủa
         int result = -1;
         for (int i = 0; i < r.size(); i++) {
             boolean isBig = true;
